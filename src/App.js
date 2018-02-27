@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Input from './Input'
+import Input from './components/Input'
 
 class App extends Component {
 
@@ -16,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Input doSomething='Something here'></Input>
+        <Input doSomething={'Something here'}></Input>
       </div>
     );
   }

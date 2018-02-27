@@ -3,6 +3,6 @@ import Input from '../Input';
 export default {
     component: Input,
     props: {
-        doSomething: 'What to do?'
+        "doSomething": "Something here"
     }
 };
