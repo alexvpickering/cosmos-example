@@ -1,0 +1,8 @@
+import Input from '../Input';
+
+export default {
+    component: Input,
+    props: {
+        doSomething: value => console.log('but what?')
+    }
+};
