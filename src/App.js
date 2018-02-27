@@ -6,10 +6,6 @@ import Input from './Input'
 
 class App extends Component {
 
-  doSomething = () => {
-    console.log('doing something')
-  }
-
   render() {
     return (
       <div className="App">
@@ -20,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Input doSomething={this.doSomething}></Input>
+        <Input doSomething='Something here'></Input>
       </div>
     );
   }
