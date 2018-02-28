@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "jquery": "^3.3.1",
     "react": "^16.2.0",
     "react-cosmos": "^3.7.1",
@@ -16,5 +18,8 @@
     "eject": "react-scripts eject",
     "cosmos": "cosmos",
     "cosmos:export": "cosmos-export"
+  },
+  "devDependencies": {
+    "react-cosmos-test": "^3.6.1"
   }
 }
