@@ -1,6 +1,6 @@
-import Button from "./Button";
+import Table from "./Table";
 import createTestContext from "react-cosmos-test/enzyme";
-import fixture from "./__fixtures__/RedButton.fixture";
+import fixture from "./__fixtures__/FilledTable.fixture";
 
 const { mount, getWrapper } = createTestContext({ fixture });
 
