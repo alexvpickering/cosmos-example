@@ -1,10 +1,10 @@
+import $ from "jquery";
 import React from "react";
-import "datatables.net-dt/css/jquery.dataTables.css";
 
 class Table extends React.Component {
   componentDidMount() {
     // draw table
-    window.$(`#example-table`).DataTable({
+    $(`#example-table`).DataTable({
       dom: "ft",
       data: this.props.data,
       columns: [
@@ -17,8 +17,7 @@ class Table extends React.Component {
   }
 
   componentWillUnmount() {
-    window
-      .$(`#example-table`)
+    $(`#example-table`)
       .DataTable()
       .destroy(true);
   }
