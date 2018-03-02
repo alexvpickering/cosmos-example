@@ -6,6 +6,10 @@ const { mount, getWrapper } = createTestContext({ fixture });
 
 beforeEach(mount);
 
-it("runs an obvious test", () => {
-  expect(true).toBe(true);
+it("can retrieve the table", () => {
+  expect(getWrapper("table").length).toBe(1);
+});
+
+it("can retrieve an added table row", () => {
+  expect(getWrapper(".odd").length).toBe(1);
 });
