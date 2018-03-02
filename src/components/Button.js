@@ -1,8 +1,9 @@
+import $ from "jquery";
 import React from "react";
 
 class Button extends React.Component {
   componentDidMount() {
-    window.$("#jquery-btn").css({
+    $("#jquery-btn").css({
       padding: "30px",
       border: "1px solid #ddd",
       color: "white",
